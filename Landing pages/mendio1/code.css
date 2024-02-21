@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+
+}
+body{
+    
+    background:url(image.png) no-repeat  center/cover;
+    color: #FFF;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.mendio{
+    color: #FCFF74;
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+nav a{
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 35px;
+    
+}
+nav a.sign{
+    width: 94px;
+    height: 34px;
+    background-color: #FCFF74;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    background: rgba(255, 255, 255, 0.35);
+    
+
+}
+.section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0% 137px;
+    
+}
+section .main p{
+    padding: 30px 0%;
+    max-width: 496px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+section .main h1{
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 107.92%; /* 53.96px */
+}
+section .main .box {
+    width: 367px;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    
+      
+    
+}
+section .main .box a{  
+    display: inline-flex;
+    width: 168px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 224px;
+    border: 1px solid #FFF;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    
+}
+#try{
+    background-color: #FCFF74;
+    color: #2E2C2C;
+}
+

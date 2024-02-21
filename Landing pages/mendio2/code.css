@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+ 
+*{
+    font-family: 'Crimson Text', serif;
+    text-decoration: none;
+    color: aliceblue;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+
+   background: url(lokesh.png) no-repeat; 
+   
+}
+header{
+    background-color: transparent;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 10%;
+    z-index: 100;
+}
+#mendio{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
+}
+#nav a{
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+#sign{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 94px;
+    height: 34px;
+    border-radius: 200px;
+    background: rgba(255, 255, 255, 0.25);
+
+}
+section{
+    height: 100vh;
+    width: 100%;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#hello h1 {
+    
+    width: 962px;
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    
+}
+#hello p{
+    height: 81px;
+    width: 566px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 200px;
+    
+}
+#button{
+    width: 100%;
+    background-color: transparent;
+    display: inline-flex;
+    margin-left: 250px;
+    
+    
+    
+}
+#button a{
+    color: #2E2C2C;
+    width: 168px;
+    height: 50px;
+    border-radius: 224px;
+    background: #FFF;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 31px;
+    
+}
+#button #see{
+    background-color: transparent;
+    color: white;
+    border-radius: 224px;
+    border: 1px solid #FFF;
+}
