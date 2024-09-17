@@ -1,12 +1,5 @@
-import React from 'react'
-import Todo from './components/Todo'
-
-const App = () => {
-  return (
-    <div className='bg-purple-600 grid py-4 h-screen'>
-      <Todo/>
-    </div>
-  )
+export default function App(){
+    return(
+        <div><h1>Amigo</h1></div>
+    );
 }
-
-export default App
